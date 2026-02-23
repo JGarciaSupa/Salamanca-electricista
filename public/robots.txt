@@ -1,0 +1,20 @@
+# Robots.txt para José Vera - Electricista Profesional
+# Este archivo le dice a los buscadores cómo rastrear el sitio
+
+# Permitir a todos los buscadores
+User-agent: *
+Allow: /
+Disallow: 
+
+# Rutas específicas para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Rutas específicas para Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Ubicación del sitemap
+Sitemap: https://electricista-salamanca.lobitoconsulting.store/sitemap.xml
